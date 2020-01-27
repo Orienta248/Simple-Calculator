@@ -1,0 +1,33 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn run lint:fix
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/orienta/my-calculator/package.json: Unexpected token : in JSON at position 9
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  "scripts": {
+      "lint": "eslint --fix --ext .js,.jsx ."
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

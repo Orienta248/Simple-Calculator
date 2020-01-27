@@ -1,0 +1,10 @@
+"scripts":{
+    "name": "my-calculator",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "dependencies": {}
+} {
+    "lint": "eslint --fix --ext .js,.jsx ."
+}
